@@ -1,0 +1,731 @@
+.Cell
+{
+    border          :   solid;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-color: white;
+}
+
+.CellWarning
+{
+    border          :   solid;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-color: white;
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CellSuccess
+{
+    border          :   solid;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.CellHora
+{
+    border          :   none;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    /* max-width: 400px !important;
+    width: 400px !important; */
+    color: black !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.CellAgenda
+{
+    border          :   solid;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    max-width: 130px !important;
+    width: 130px !important;
+}
+
+.CellAgendaHeader
+{
+    border          :   solid;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   6px;
+    padding-right   :   5.5px;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    background-color: lightgray;
+    border-color: white;
+    color: black;
+}
+
+.CellAgendaHeaderVacio
+{
+    border          :   none;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   6px;
+    padding-right   :   5.5px;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.HoraEncabezado
+{
+    border          :   none;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   6px;
+    padding-right   :   6px;
+    max-width: 60px !important;
+    width: 60px !important;
+}
+
+.Hora
+{
+    border          :   none;
+    border-width    :   thin;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    max-width: 60px !important;
+    width: 60px !important;
+    font-weight: bold;
+}
+
+.Vacio
+{
+    border          :   solid;
+    border-width    :   1px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-color: lightgray;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 0px !important;
+}
+
+.Preparacion
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-bottom-color: blue;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.PreparacionFin
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-bottom-color: blue;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.Realizados
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: #2994b2;
+    border-left-color: #2994b2;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.RealizadosInicio
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top-color: #2994b2;
+    border-right-color: #2994b2;
+    border-left-color: #2994b2;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.RealizadosFin
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: #2994b2;
+    border-left-color: #2994b2;
+    border-bottom-color: #2994b2;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+
+.Confirmados
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: green;
+    border-left-color: green;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ConfirmadosInicio
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top-color: green;
+    border-right-color: green;
+    border-left-color: green;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ConfirmadosFin
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: green;
+    border-left-color: green;
+    border-bottom-color: green;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Pendiente
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: gold;
+    border-left-color: gold;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.PendienteInicio
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top-color: gold;
+    border-right-color: gold;
+    border-left-color: gold;
+    border-bottom: none;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.PendienteFin
+{
+    border          :   solid;
+    border-width    :   2px;
+    display         :   table-cell;
+    padding-left    :   5px;
+    padding-right   :   5px;
+    border-top: none;
+    border-right-color: gold;
+    border-left-color: gold;
+    border-bottom-color: gold;
+    max-width: 130px !important;
+    width: 130px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.Heading
+{
+    color       :   black ;
+    background-color: goldenrod;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+}
+
+.HeadingHora
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 70% !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraT
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2912px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraS
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2770.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraR
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2629px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraQ
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2487.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraP
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2346px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+
+.HeadingHoraO
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2204.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraN
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 2063px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraM
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1921.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraL
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1780px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraK
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1638.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraJ
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1497px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraI
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1355.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraH
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1214px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraG
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 1072.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraF
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 931px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraE
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 789.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraD
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 648px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraC
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 506.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraB
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 365px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingHoraA
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: #6ee96e ;
+    width: 223.5px !important;
+    height: 60px !important;
+    /* background-color: rgba(0,174,169,.4); */
+}
+
+.HeadingAgenda
+{
+    color       :   #0582a9 ;
+    display     :   table-row;
+    font-weight :   bold;
+    text-align  :   center;
+    position: fixed;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.MedicoNombre
+{
+    font-size: 9px !important;
+}
+
+.Row
+{
+    display :   table-row;
+    color: white;
+}
+
+.Gasolina
+{
+    display :   table-row;
+    color: black;
+    background-color: lightgray;
+}
+
+.Pendiente
+{
+    display :   table-row;
+    color: black;
+    background-color: gray;
+}
+
+.TotalSuma
+{
+    display :   table-row;
+    color: black;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.TotalPromedio
+{
+    display :   table-row;
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.TotalLKm
+{
+    display :   table-row;
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.RowAgenda
+{
+    display :   table-row;
+}
+
+.RowMedicos
+{
+    cursor  :   pointer;
+    display :   table-row;
+}
+
+.RowRed
+{
+    /* background-color    :   lightcoral; */
+    display             :   table-row;
+    color: white;
+    background-color: #56070C;
+}
+
+.RowTotal
+{
+    /* background-color    :   lightcoral; */
+    display             :   table-row;
+    color: black;
+    background-color: lightslategrey;
+    font-weight: bold;
+}
+
+.Table
+{
+    color       :   black;
+    display     :   table;
+    font-size   :   12px;
+    margin-top: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.TableAgenda
+{
+    color       :   black;
+    font-size   :   12px;
+    height: 200px !important;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid;
+}
+
+.Title
+{
+    display     :   table-caption;
+    font-size   :   larger;
+    font-weight :   bold;
+    text-align  :   center;
+}
+
+.ConfirmadoImg
+{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}

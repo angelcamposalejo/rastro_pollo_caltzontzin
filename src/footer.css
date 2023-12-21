@@ -1,0 +1,36 @@
+.footer {
+	background	:	gray;
+	bottom		:	0;
+	box-sizing	:	border-box;
+	color		:	#FFF;
+	font-family	:	'Monserrat', sans-serif;
+	font-size	:	12px;
+	left		:	0;
+	margin-top	:	16%;
+	padding		:	19px 10px;
+	width		:	100%;
+}
+
+.logofooter {
+	bottom		:	0;
+	display		:	block;
+	left		:	0;
+	margin		:	auto;
+	position	:	absolute;
+	right		:	0;
+}
+
+.textp3 {
+	display			:	inline-block;
+	margin			:	10px 0;
+	vertical-align	:	middle;
+	width			:	49%;
+}
+
+.textp4 {
+	display			:	inline-block;
+	margin			:	10px 0;
+	text-align		:	right;
+	vertical-align	:	middle;
+	width			:	49%;
+}

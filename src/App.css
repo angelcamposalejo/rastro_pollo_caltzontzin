@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b4721d;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  flex-basis: 100%;
+}
+
+@media (min-width: 768px ){
+	.App-header{
+		flex-basis: 100%;
+	}
+}
+
+@media (min-width: 1608px ){
+	.App-header{
+		flex-basis: 100%;
+	}
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contenedor {
+  background      :   transparent;
+  border          :   1px solid #e2b339;
+  border-radius   :   8px;
+  margin          :   10px auto;
+  text-align      :   center;
+  width           :   600px;
+}
+
+.contenedorTabla {
+	background      :   transparent;
+	border          :   1px solid #e2b339;
+	border-radius   :   8px;
+	margin          :   10px auto;
+	text-align      :   center;
+	width           :   100%;
+  }
+  
+
+.boton_actualizar{
+	background		:	#e2b339;
+	border-radius	:	25px;
+	box-shadow		:	0px 0px 2px #888;
+	cursor			:	pointer;
+	display			:	inline-block;
+	font-size		:	20px;
+	margin			:	0 10px;
+	text-align		:	center;
+	width			:	170px;
+}
+
+.boton_actualizar:hover, .boton_actualizar:focus{
+	box-shadow	:	0 0 0 2px white, 0 0 0 3px black;
+}
+
+.boton_actualizar{
+	background		:	#e2b339;
+	border-radius	:	25px;
+	box-shadow		:	0px 0px 2px #888;
+	cursor			:	pointer;
+	display			:	inline-block;
+	font-size		:	20px;
+	margin			:	0 10px;
+	text-align		:	center;
+	width			:	170px;
+  margin-bottom: 10px;
+}
+
+.boton_actualizar:hover, .boton_actualizar:focus{
+	box-shadow	:	0 0 0 2px white, 0 0 0 3px black;
+}
+
+.boton_aceptar{
+	background		:	brown;
+	border-radius	:	25px;
+	box-shadow		:	0px 0px 2px #888;
+	cursor			:	pointer;
+	display			:	inline-block;
+	font-size		:	20px;
+	margin			:	0 10px;
+	text-align		:	center;
+	width			:	170px;
+  	margin-bottom: 10px;
+}
+
+.boton_cancelar{
+	background		:	lightgray;
+	border-radius	:	25px;
+	box-shadow		:	0px 0px 2px #888;
+	cursor			:	pointer;
+	display			:	inline-block;
+	font-size		:	20px;
+	margin			:	0 10px;
+	text-align		:	center;
+	width			:	170px;
+  	margin-bottom: 10px;
+}
+
+.boton_aceptar:hover, .boton_actualizar:focus{
+	box-shadow	:	0 0 0 2px white, 0 0 0 3px black;
+}
+
+.modalTitle {
+	color		: goldenrod;
+	font-size	:	30px;
+}
+
+.modalText {
+	color		:	black;
+	font-size	:	20px;
+}
+
+.modalTextResaltado {
+	color		:	blue;
+	font-size	:	20px;
+}
+
+.registoForm {
+  border-color: goldenrod;
+}
+
+.btn-flotanteExportMedicos {
+	align-content		:	center;
+	align-items			:	center;
+	background-color	:	goldenrod;
+	border				:	1px solid goldenrod;
+	border-radius		:	50px;
+	bottom				:	40px;
+	box-shadow			:	0px 8px 15px rgba(0, 0, 0, 0.1);
+	color				:	#ffffff;
+	font-size			:	16px;
+	font-weight			:	bold;
+	height				:	50px;
+    justify-content		:	center;
+	letter-spacing		:	2px;
+	position			:	fixed;
+	right				:	40px;
+	text-align			:	center;
+	text-transform		:	uppercase;
+	transition			:	all 300ms ease 0ms;
+	width				:	50px;
+    z-index				:	99;
+}
+
+.btn-flotanteExportMedicos:hover {
+	background-color	:	brown; /* Color de fondo al pasar el cursor */
+	box-shadow			:	0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform			:	translateY(-7px);
+}
+
+.btn-flotanteAgregar {
+	align-content		:	center;
+	align-items			:	center;
+	background-color	:	goldenrod;
+	border				:	1px solid goldenrod;
+	border-radius		:	50px;
+	bottom				:	150px;
+	box-shadow			:	0px 8px 15px rgba(0, 0, 0, 0.1);
+	color				:	#ffffff;
+	font-size			:	16px;
+	font-weight			:	bold;
+	height				:	50px;
+    justify-content		:	center;
+	letter-spacing		:	2px;
+	position			:	fixed;
+	right				:	340px;
+	text-align			:	center;
+	text-transform		:	uppercase;
+	transition			:	all 300ms ease 0ms;
+	width				:	50px;
+    z-index				:	99;
+}
+
+.btn-flotanteAgregar:hover {
+	background-color	:	brown; /* Color de fondo al pasar el cursor */
+	box-shadow			:	0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform			:	translateY(-7px);
+}
+
+.menu_top {
+    background	:	#e2b339;
+	background: black;
+	box-shadow	:	0px 1px 6px -1px #ccc;
+    box-sizing	:	border-box;
+	height		:	44px;
+	padding		:	0 10px;
+	width		:	100%;
+	z-index		:	1;
+}
+
+.opc_menu {
+	border-color	:	gray;
+	border-style	:	solid;
+  	border-width	:	1px;
+	color			:	white !important;
+	cursor			:	pointer;
+	display			:	inline-block;
+	font-family		:	'Gilroy', sans-serif;
+	font-size		:	17px;
+	margin			:	5px 0 0 0;
+	padding			:	5px 10px;
+	vertical-align	:	top;
+}
+
+.opc_menuSeleccionada {
+	background-color	:	#3d1a04;
+	border-color		:	gray;
+	border-style		:	solid;
+  	border-width		:	1px;
+  	color				:	white !important;
+	cursor				:	pointer;
+	display				:	inline-block;
+	font-family			:	'Gilroy', sans-serif;
+	font-size			:	17px;
+	font-weight			:	bold;
+	margin				:	5px 0 0 0;
+	padding				:	5px 20px;
+	vertical-align		:	top;
+}
+
+#div1{
+	left:calc(50% - 300px);
+	top:calc(50% - 150px);
+	width:600px;
+	height:60px;
+	/* border:10px solid rgb(60, 60, 60); */
+	/* border-radius:100px; */
+	background-color: black;
+	margin-bottom: 10px;
+  }
+
+
+
+.btnMenu {
+	background-color	:	black;
+	/* border-color		:	whitesmoke; */
+	/* border-style		:	solid; */
+  	border-width		:	1px;
+  	color				:	white !important;
+	cursor				:	pointer;
+	display				:	inline-block;
+	font-family			:	'Gilroy', sans-serif;
+	font-size			:	25px;
+	font-weight			:	bold;
+	margin				:	5px 0 0 0;
+	padding				:	5px 20px;
+	vertical-align		:	top;
+	width: 120px;
+}
+
+.btnMenuInactive {
+	background-color	:	black;
+	/* border-color		:	whitesmoke; */
+	/* border-style		:	solid; */
+  	border-width		:	1px;
+  	color				:	gray !important;
+	cursor				:	pointer;
+	display				:	inline-block;
+	font-family			:	'Gilroy', sans-serif;
+	font-size			:	25px;
+	font-weight			:	bold;
+	margin				:	5px 0 0 0;
+	padding				:	5px 20px;
+	vertical-align		:	top;
+	width: 120px;
+}
